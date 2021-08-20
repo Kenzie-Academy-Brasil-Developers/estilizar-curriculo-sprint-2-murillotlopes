@@ -1,6 +1,81 @@
+
+body, html{
+	font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
+	background-color: #f3f3f3;
+}
+
+#cv {
+	width: 90%;
+	max-width: 800px;
+	margin: 30px auto;
+}
+
+.mainDetails {
+	padding: 25px 35px;
+}
+
+#mainArea {
+	padding: 0 40px;
+}
+
+#headshot img {
+	width: 100%;
+	height: auto;
+	border-radius: 50px;
+}
+
+#contactDetails ul li {
+	margin-bottom: 3px;
+}
+
+#name, #contactDetails, a{
+	color: #181818;
+}
+
+#name > h1, h2 {
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+
+.tracoUm{
+	color: #cf8a05;
+	border-width: 2px;
+	border-style: solid;
+}
+
+.tracoDois{
+	color: #dedede;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.sectionTitle{
+	font-family: 'Rokkitt', 'Helvetica', 'Arial', sans-serif;
+	color: #cf8a05;
+}
+
+p, .keySkills li{
+	color: #444444;
+}
+
+.keySkills{
+	column-count: 3;
+}
+
+p{margin-bottom: 20px;}
+
 .clear {
 	clear: both;
 }
+
+
 
 #headshot {
 	width: 12.5%;
@@ -10,6 +85,7 @@
 
 #name {
 	float: left;
+	font-family: 'Rokkitt', 'Helvetica', 'Arial', sans-serif;
 }
 
 #contactDetails {
@@ -24,4 +100,6 @@
 .sectionContent {
 	float: right;
 	width: 72.5%;
+	
 }
+
